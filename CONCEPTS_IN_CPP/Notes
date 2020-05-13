@@ -1,0 +1,5 @@
+In programming when two identifiers with the same name are introduced into thr same scope, then a naming collision occurs.
+
+In such a situation the compiler will produce an error because it does not have enough information to resolve the ambiguity. The probability of naming collisions increases exponentiallly as the no. of identifiers increases linearly with the increase in program size
+
+In order to resolve this type of problem, the concept of namespaces was introduced. A namespace defines an area of code in which all identifiers are guaranteed to be unique. By default all variables and functions are defined in the global namespace.
